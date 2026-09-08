@@ -1,0 +1,197 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    position: relative;
+    background-image: url(imagens/fundo.png);
+    background-position-x: center;
+
+}
+.icon{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.links{
+    width: 4%;
+    height: 80%;
+    background-color: rgb(78, 1, 78);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.a, .b{
+    width: 50%;
+    height: 20%;
+    border-top: 3px solid white;
+}
+.b{
+    border-bottom: 3px solid white;
+}
+header{
+    width: 100%;
+    height: 20%;
+    background-image: url(imagens/footer.png);
+    background-position-x: center;
+    background-position-y: 25%;
+    display: flex;
+    flex-direction: column;
+}
+h1, li, p, .git{
+    color: white;
+}
+.generos, .encontrar{
+    color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0px;
+}
+.descricao{
+    margin-top: 0px;
+    font-size: 15px;
+}
+main{
+    width: 100%;
+    height: 250%;
+    display: flex;
+    flex-direction: column;
+}
+.imagem-conteudo{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.imagens{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.conteudo{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#secao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobre{
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellow;
+    margin-bottom: 0px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foto1, .foto2{
+    margin: 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+article{
+    width: 80%;
+    height: auto;
+}
+.universo{
+    color: white;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.listas{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.caixas{
+    width: 98%;
+    height: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.ordenada{
+    width: 50%;
+    height: 100%;
+    border-right: 3px solid white;
+}
+.nao-ordenada{
+    width: 50%;
+    height: 100%;
+}
+.encontrar{
+    margin-left: 10px;
+}
+li{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    width: 25%;
+    height: 90%;
+    position: fixed;
+    left: 1%;
+    top: 8%;
+    border-radius: 50px;
+    display: none;
+    background-color: rgb(8, 0, 7);
+    border: 2px solid white;
+    flex-direction: column;
+    align-items: center;
+}
+.icone1, .icone2, .icone3{
+    width: 80%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.github, .html{
+    width: 30%;
+    height: 40%;
+}
+footer{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+}
+.videos{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 10%;
+}
+video{
+    width: 44%;
+}
